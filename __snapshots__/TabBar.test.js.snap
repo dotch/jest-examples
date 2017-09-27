@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabBar Component renders correctly (enzyme) 1`] = `
+<ul>
+  <li
+    className={null}
+    key="0"
+  >
+    zebra
+  </li>
+  <li
+    className="selected"
+    key="1"
+  >
+    elephant
+  </li>
+</ul>
+`;
+
+exports[`TabBar Component renders correctly 1`] = `
+<ul>
+  <li
+    className={null}
+  >
+    zebra
+  </li>
+  <li
+    className="selected"
+  >
+    elephant
+  </li>
+</ul>
+`;
