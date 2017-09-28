@@ -1,6 +1,6 @@
 # Jest Examples
 
-Testing with (Jest)[https://facebook.github.io/jest/] is simple and delightful!
+Testing with [Jest](https://facebook.github.io/jest/) is simple and delightful!
 This repository contains a couple of simple example tests.
 
 ## Getting started
