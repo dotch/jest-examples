@@ -5,6 +5,7 @@ import {configure, shallow} from 'enzyme';
 import Button from './Button';
 
 configure({adapter: new Adapter()});
+window.requestAnimationFrame = fn => setTimeout(fn, 0);
 
 describe('Button Component', () => {
   it('should contain the right text', () => {

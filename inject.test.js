@@ -5,6 +5,7 @@ import {configure, shallow} from 'enzyme';
 import inject from './inject';
 
 configure({adapter: new Adapter()});
+window.requestAnimationFrame = fn => setTimeout(fn, 0);
 
 describe('inject HOC', () => {
   it('should add "newProp"', () => {
