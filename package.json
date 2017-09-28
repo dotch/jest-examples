@@ -19,7 +19,6 @@
     "jest": "^21.2.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-test-renderer": "^16.0.0",
-    "whatwg-fetch": "^2.0.3"
+    "react-test-renderer": "^16.0.0"
   }
 }
